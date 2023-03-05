@@ -59,6 +59,7 @@ nav ul{
 
 .footer-reset{
     grid-column: span 4/ 17;
+    grid-row: 1
 }
 
 
@@ -309,11 +310,15 @@ nav ul{
         grid-column: span 3;
     }
 
-    .footer-email
-    , .footer-instagram
-    , .footer-linkedin {
+    .footer-email,
+    .footer-instagram,
+    .footer-linkedin {
         grid-column: 1;
         text-align: left;
+    }
+
+    .footer-reset {
+        grid-column-start: span 6;
     }
 }
 
